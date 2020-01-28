@@ -10,3 +10,6 @@ if lowest_value == nil || b < lowest_value
   lowest_value = b 
   lowest_key = a 
 end
+end 
+lowest_key
+end 
