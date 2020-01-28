@@ -7,5 +7,6 @@ def key_for_min_value(ikea)
   
   ikea.each do |a,b|
 if lowest_value == nil || b < lowest_value
-  lowest_value = 
+  lowest_value = b 
+  lowest_key = a 
 end
